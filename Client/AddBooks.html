@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books I've read</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"> <i class="fas fa-book fa-2x"></i> Books I've read</a>
+            </div>
+           <a class="btn btn-secondary">ADD Book</a>
+        </div>
+    </nav>
+
+    
+
+   <div class="container AddBookForm mt-5 p-5">
+   
+   <form id="AddBookFields">
+
+<div class="row">
+<!-- Labeles -->
+<div class="col-md-6 labels">
+    <div>Title</div>
+    <br>
+    <div>Author</div>
+    <br>
+    <div>Genre</div>
+    <br>
+    <div>Publisher</div>
+    <br>
+    <div>Page Count</div>
+    <br>
+    <div>Image URL</div>
+    <br>
+    <div>Buy URL</div>
+    <br>
+    <div>Description</div>
+    
+
+</div>
+
+<!-- Input -->
+<div class="col-md-6">
+    <input class="Input-fields" id="Title">
+    <br>
+    <input class="Input-fields" id="Author">
+    <br>
+    <input class="Input-fields" id="Genre">
+    <br>
+    <input class="Input-fields" id="Publisher">
+    <br>
+    <input class="Input-fields" id="PageCount">
+    <br>
+    <input class="Input-fields" id="ImageURL">
+    <br>
+    <input class="Input-fields" id="BuyURL">
+    <br>
+    <textarea class="Input-fields Description-In" id="Description"></textarea>
+    <br>
+
+</div>
+
+</div>
+<br>
+<div class="btn btn-secondary" id="ADDBOOK"> ADD</div>
+   </form>
+
+
+
+   </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./JS/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
